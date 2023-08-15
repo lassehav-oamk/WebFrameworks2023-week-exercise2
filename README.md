@@ -13,7 +13,7 @@ following parameters:
 - The number of virtual machines (VMs) required by the customer
 - The price of a single VM per hour
 
-The calculator should output the total cost per hour, day, month and year.\
+The calculator should output the total cost per hour, day, month and year.
 
 The calculator should be implemented as a React component and named CostCalculator.\
 The component should accept the price of a single VM per hour as a prop with name priceOfSingleVMPerHour.\

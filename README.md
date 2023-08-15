@@ -8,22 +8,26 @@ You should clone this project to your own computer, write the solution for the t
 
 Your task is to create a cost estimation calculator for a cloud service provider.
 The calculator should be able to calculate the cost of a cloud service based on the
-following parameters:\
-\
-- The number of virtual machines (VMs) required by the customer\
-- The price of a single VM per hour\
+following parameters:
+
+- The number of virtual machines (VMs) required by the customer
+- The price of a single VM per hour
 
 The calculator should output the total cost per hour, day, month and year.\
 
 The calculator should be implemented as a React component and named CostCalculator.\
 The component should accept the price of a single VM per hour as a prop with name priceOfSingleVMPerHour.\
-The component should render : - a heading with text "VM Cost Calculator", - label for the input field with text "Number of VMs" and for attribute "vmNumber", - an input field for the number of VMs with type "text" and id "vmNumber" and placeholder "Number of VMs", - the results in format:\
+The component should render :
+- a heading with text "VM Cost Calculator",
+- label for the input field with text "Number of VMs" and for attribute "vmNumber",
+- an input field for the number of VMs with type "text" and id "vmNumber" and placeholder "Number of VMs",
+- the results in format:\
 Cost per hour: <cost>\
 Cost per day: <cost>\
 Cost per month: <cost>\
-Cost per year: <cost>\
+Cost per year: <cost>
 
-The resulting HTML structure should look like this when the price of a single VM per hour is 0.5:\
+The resulting HTML structure should look like this when the price of a single VM per hour is 0.5:
 
 ```
   <h1>VM Cost Calculator</h1>

@@ -15,12 +15,17 @@ following parameters:
 
 The calculator should output the total cost per hour, day, month and year.
 
-The calculator should be implemented as a React component and named CostCalculator.\
-The component should accept the price of a single VM per hour as a prop with name priceOfSingleVMPerHour.\
-The component should render :
+The calculator should be implemented as a React component named CostCalculator.\
+The CostCalculator should accept the price of a single VM per hour as a prop (type number) with name priceOfSingleVMPerHour.\
+The CostCalculator should render :
 - a heading with text "VM Cost Calculator",
-- label for the input field with text "Number of VMs" and for attribute "vmNumber",
-- an input field for the number of VMs with type "text" and id "vmNumber" and placeholder "Number of VMs",
+- "label" element for the input field with attributes:
+    * "placeholder" with value "Number of VMs" and
+    * "for" with value "vmNumber",
+- an "input" element for the number of VMs with attributes:
+    * "type" with value "text",
+    * "id" with value "vmNumber" and
+    * "placeholder" with value "Number of VMs"
 - the results in format:\
 Cost per hour: <cost>\
 Cost per day: <cost>\
@@ -42,10 +47,7 @@ The resulting HTML structure should look like this when the price of a single VM
 ```
 
 Notice that you must implement the DOM structure using react components. You are not allowed to
-create the DOM structure in the App component. The App component should only render the question component
-and the question component should render the question and options.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+create the DOM structure in the App component.
 
 ## Useful Scripts for the exercise
 

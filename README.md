@@ -1,6 +1,6 @@
-# Web Frameworks Week Exercise 2
+# Web Frameworks Week Exercise 3
 
-To goal of this exercise is to practise and demonstrate you skills in react component props and basic events.
+To goal of this exercise is to practise and demonstrate you skills in react component props, basic events and state handling.
 
 You should clone this project to your own computer, write the solution for the task. Test it on your machine with 'npm test' and confirm that you pass all the test cases. Then commit and push your changes to the github classroom repository of your own.
 

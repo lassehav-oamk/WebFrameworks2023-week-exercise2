@@ -17,6 +17,7 @@ The calculator should output the total cost per hour, day, month and year.
 
 The calculator should be implemented as a React component named CostCalculator.\
 The CostCalculator should accept the price of a single VM per hour as a prop (type number) with name priceOfSingleVMPerHour.\
+The CostCalculator.js file should be in the same folder as App.js.\
 The CostCalculator should render :
 - a heading with text "VM Cost Calculator",
 - "label" element for the input field with attributes:
@@ -27,10 +28,10 @@ The CostCalculator should render :
     * "id" with value "vmNumber" and
     * "placeholder" with value "Number of VMs"
 - the results in format:\
-Cost per hour: <cost>\
-Cost per day: <cost>\
-Cost per month: <cost>\
-Cost per year: <cost>
+Cost per hour: (cost)\
+Cost per day: (cost)\
+Cost per month: (cost)\
+Cost per year: (cost)
 
 The resulting HTML structure should look like this when the price of a single VM per hour is 0.5:
 
@@ -46,7 +47,7 @@ The resulting HTML structure should look like this when the price of a single VM
   </div>
 ```
 
-Notice that you must implement the DOM structure using react components. You are not allowed to
+Notice that you must implement the DOM structure with the CostCalculator component. You are not allowed to
 create the DOM structure in the App component.
 
 ## Useful Scripts for the exercise
@@ -60,6 +61,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 
 ### `npm test`
 

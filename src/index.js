@@ -7,10 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App
-      question={"How long is one mile?"}
-      options={["1.3km", "1.8km", "2.0km", "1.0km"]}
-    />
+    <App />
   </React.StrictMode>
 );
 
